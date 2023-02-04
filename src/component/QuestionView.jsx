@@ -17,7 +17,7 @@ function QuestionView({ pickedQuiz }) {
       case "numberQuestion":
         setQuestions(numberQuestion);
       default:
-        stationQuestion;
+        setQuestions(stationQuestion);
     }
   }, [pickedQuiz]);
 
