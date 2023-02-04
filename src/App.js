@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import QuestionView from "./component/QuestionView";
 
 function App() {
+  const [pickedQuiz, setPickedQuiz] = useState("");
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {!pickedQuiz ? (
+        <div className="quizApp">
+          <h1>Pick your Quiz</h1>
+          <button
+            className="btnStation"
+            onClick={() => setPickedQuiz("stationQuestion")}
+          >
+            Station
+          </button>
+          <button
+            className="btnStn"
+            onClick={() => setPickedQuiz("stnQuestion")}
+          >
+            Stn
+          </button>
+          <button
+            className="btnNumber"
+            onClick={() => setPickedQuiz("numberQuestion")}
+          >
+            Number
+          </button>
+        </div>
+      ) : (
+        <QuestionView pickedQuiz={pickedQuiz} />
+      )}
+    </>
   );
 }
 
