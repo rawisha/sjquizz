@@ -32,6 +32,7 @@ function QuestionView({ pickedQuiz }) {
     if (nextQuestion < questions?.length) {
       setTimeout(function () {
         setCurrentQuestion(nextQuestion);
+        setAnswerCorrect(false);
       }, 350);
     } else {
       setShowScore(true);
@@ -76,6 +77,9 @@ function QuestionView({ pickedQuiz }) {
             {questions?.[currentQuestion]?.answerOptions.map(
               (answerOptions) => (
                 <button
+                  className={`${
+                    answerOptions.isCorrect && answerCorrect ? "correct" : ""
+                  }`}
                   key={answerOptions.id}
                   onClick={() =>
                     handleanswerOptionsClick(answerOptions.isCorrect)
