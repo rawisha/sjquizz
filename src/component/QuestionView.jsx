@@ -12,12 +12,13 @@ function QuestionView({ pickedQuiz }) {
     switch (pickedQuiz) {
       case "stationQuestions":
         setQuestions(stationQuestion);
+        break;
       case "stnQuestion":
         setQuestions(stnQuestion);
+        break;
       case "numberQuestion":
         setQuestions(numberQuestion);
-      default:
-        setQuestions(stationQuestion);
+        break;
     }
   }, [pickedQuiz]);
 
