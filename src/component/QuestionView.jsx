@@ -22,7 +22,13 @@ function QuestionView({ pickedQuiz }) {
     }
   }, [pickedQuiz]);
 
-  const randomizeAnswers = questions.sort(() => (Math.random() > 0.5 ? 1 : -1));
+  useEffect(() => {
+    if (questions) {
+      const randomQuestions = questions.sort(() =>
+        Math.random() > 0.5 ? 1 : -1
+      );
+    }
+  }, []);
 
   const handleanswerOptionsClick = (isCorrect) => {
     if (isCorrect) {
