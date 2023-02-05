@@ -22,7 +22,7 @@ function QuestionView({ pickedQuiz }) {
     }
   }, [pickedQuiz]);
 
-  console.log(questions);
+  const randomizeAnswers = questions.sort(() => (Math.random() > 0.5 ? 1 : -1));
 
   const handleanswerOptionsClick = (isCorrect) => {
     if (isCorrect) {
