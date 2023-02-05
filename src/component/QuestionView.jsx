@@ -22,14 +22,6 @@ function QuestionView({ pickedQuiz }) {
     }
   }, [pickedQuiz]);
 
-  useEffect(() => {
-    if (questions) {
-      const randomQuestions = questions.sort(() =>
-        Math.random() > 0.5 ? 1 : -1
-      );
-    }
-  }, []);
-
   const handleanswerOptionsClick = (isCorrect) => {
     if (isCorrect) {
       setScore(score + 1);
@@ -81,16 +73,18 @@ function QuestionView({ pickedQuiz }) {
             </div>
           </div>
           <div className="answer-section">
-            {questions[currentQuestion].answerOptions.map((answerOptions) => (
-              <button
-                key={answerOptions.id}
-                onClick={() =>
-                  handleanswerOptionsClick(answerOptions.isCorrect)
-                }
-              >
-                {answerOptions.answerText}
-              </button>
-            ))}
+            {questions
+              .sort(() => (Math.random() > 0.5 ? 1 : -1))
+              [currentQuestion].answerOptions.map((answerOptions) => (
+                <button
+                  key={answerOptions.id}
+                  onClick={() =>
+                    handleanswerOptionsClick(answerOptions.isCorrect)
+                  }
+                >
+                  {answerOptions.answerText}
+                </button>
+              ))}
           </div>
         </>
       )}
