@@ -1,6 +1,6 @@
 export const stationQuestion = [
   {
-    questionText: "Malmö",
+    questionText: "Malmö (1)",
     answerOptions: [
       { answerText: "M", isCorrect: true },
       { answerText: "Lu", isCorrect: false },
@@ -9,7 +9,7 @@ export const stationQuestion = [
     ],
   },
   {
-    questionText: "Köpenhamn C",
+    questionText: "Köpenhamn C (2)",
     answerOptions: [
       { answerText: "N", isCorrect: false },
       { answerText: "Vö", isCorrect: false },
@@ -18,7 +18,7 @@ export const stationQuestion = [
     ],
   },
   {
-    questionText: "Lund",
+    questionText: "Lund (3)",
     answerOptions: [
       { answerText: "Ld", isCorrect: false },
       { answerText: "Lp", isCorrect: false },
@@ -27,7 +27,7 @@ export const stationQuestion = [
     ],
   },
   {
-    questionText: "Helsingborg",
+    questionText: "Helsingborg (4)",
     answerOptions: [
       { answerText: "Hb", isCorrect: true },
       { answerText: "Hm", isCorrect: false },
@@ -36,7 +36,7 @@ export const stationQuestion = [
     ],
   },
   {
-    questionText: "Hässlehom",
+    questionText: "Hässlehom (5)",
     answerOptions: [
       { answerText: "Hb", isCorrect: false },
       { answerText: "Hm", isCorrect: true },
@@ -45,7 +45,7 @@ export const stationQuestion = [
     ],
   },
   {
-    questionText: "Kalmar",
+    questionText: "Kalmar (6)",
     answerOptions: [
       { answerText: "Em", isCorrect: false },
       { answerText: "Kr", isCorrect: false },
@@ -54,7 +54,7 @@ export const stationQuestion = [
     ],
   },
   {
-    questionText: "Emmaboda",
+    questionText: "Emmaboda (7)",
     answerOptions: [
       { answerText: "Ör", isCorrect: false },
       { answerText: "Em", isCorrect: true },
@@ -63,7 +63,7 @@ export const stationQuestion = [
     ],
   },
   {
-    questionText: "Halmstad",
+    questionText: "Halmstad (8)",
     answerOptions: [
       { answerText: "Xosl", isCorrect: false },
       { answerText: "Arnc", isCorrect: false },
@@ -72,7 +72,7 @@ export const stationQuestion = [
     ],
   },
   {
-    questionText: "Växjö",
+    questionText: "Växjö (9)",
     answerOptions: [
       { answerText: "Vö", isCorrect: true },
       { answerText: "Av", isCorrect: false },
@@ -81,7 +81,7 @@ export const stationQuestion = [
     ],
   },
   {
-    questionText: "Alvesta",
+    questionText: "Alvesta (10)",
     answerOptions: [
       { answerText: "Arnc", isCorrect: false },
       { answerText: "Av", isCorrect: true },
@@ -90,7 +90,7 @@ export const stationQuestion = [
     ],
   },
   {
-    questionText: "Varberg",
+    questionText: "Varberg (11)",
     answerOptions: [
       { answerText: "Vå", isCorrect: false },
       { answerText: "Smd", isCorrect: false },
@@ -99,7 +99,7 @@ export const stationQuestion = [
     ],
   },
   {
-    questionText: "Jönköping",
+    questionText: "Jönköping (12)",
     answerOptions: [
       { answerText: "My", isCorrect: false },
       { answerText: "Lp", isCorrect: false },
@@ -108,7 +108,7 @@ export const stationQuestion = [
     ],
   },
   {
-    questionText: "Nässjö",
+    questionText: "Nässjö (13)",
     answerOptions: [
       { answerText: "Nk", isCorrect: false },
       { answerText: "N", isCorrect: true },
@@ -117,7 +117,7 @@ export const stationQuestion = [
     ],
   },
   {
-    questionText: "Borås",
+    questionText: "Borås  (14)",
     answerOptions: [
       { answerText: "Blgc", isCorrect: false },
       { answerText: "Bsc", isCorrect: true },
@@ -126,7 +126,7 @@ export const stationQuestion = [
     ],
   },
   {
-    questionText: "Göteborg",
+    questionText: "Göteborg (15)",
     answerOptions: [
       { answerText: "Gä", isCorrect: false },
       { answerText: "U", isCorrect: false },
@@ -135,7 +135,7 @@ export const stationQuestion = [
     ],
   },
   {
-    questionText: "Herrljunga",
+    questionText: "Herrljunga (16)",
     answerOptions: [
       { answerText: "Flb", isCorrect: false },
       { answerText: "Cst", isCorrect: false },
@@ -144,7 +144,7 @@ export const stationQuestion = [
     ],
   },
   {
-    questionText: "Falköping",
+    questionText: "Falköping (17)",
     answerOptions: [
       { answerText: "Flb", isCorrect: false },
       { answerText: "F", isCorrect: true },
@@ -153,7 +153,7 @@ export const stationQuestion = [
     ],
   },
   {
-    questionText: "Mjölby",
+    questionText: "Mjölby (18)",
     answerOptions: [
       { answerText: "My", isCorrect: true },
       { answerText: "Mrc", isCorrect: false },
@@ -162,7 +162,7 @@ export const stationQuestion = [
     ],
   },
   {
-    questionText: "Linköping",
+    questionText: "Linköping (19)",
     answerOptions: [
       { answerText: "Cst", isCorrect: false },
       { answerText: "Ör", isCorrect: false },
@@ -171,7 +171,7 @@ export const stationQuestion = [
     ],
   },
   {
-    questionText: "Norrköping",
+    questionText: "Norrköping (20)",
     answerOptions: [
       { answerText: "Nk", isCorrect: false },
       { answerText: "Nr", isCorrect: true },
@@ -180,7 +180,7 @@ export const stationQuestion = [
     ],
   },
   {
-    questionText: "Uddevalla",
+    questionText: "Uddevalla (21)",
     answerOptions: [
       { answerText: "U", isCorrect: false },
       { answerText: "Uv", isCorrect: true },
@@ -189,7 +189,7 @@ export const stationQuestion = [
     ],
   },
   {
-    questionText: "Skövde",
+    questionText: "Skövde (22)",
     answerOptions: [
       { answerText: "Smd", isCorrect: false },
       { answerText: "Söö", isCorrect: false },
@@ -198,7 +198,7 @@ export const stationQuestion = [
     ],
   },
   {
-    questionText: "Nyköping",
+    questionText: "Nyköping (23)",
     answerOptions: [
       { answerText: "Nk", isCorrect: true },
       { answerText: "Et", isCorrect: false },
@@ -207,7 +207,7 @@ export const stationQuestion = [
     ],
   },
   {
-    questionText: "Strömstad",
+    questionText: "Strömstad (24)",
     answerOptions: [
       { answerText: "Suc", isCorrect: false },
       { answerText: "Smd", isCorrect: true },
@@ -216,7 +216,7 @@ export const stationQuestion = [
     ],
   },
   {
-    questionText: "Hallsberg",
+    questionText: "Hallsberg (25)",
     answerOptions: [
       { answerText: "Hpbg", isCorrect: true },
       { answerText: "Flb", isCorrect: false },
@@ -225,7 +225,7 @@ export const stationQuestion = [
     ],
   },
   {
-    questionText: "Katrineholm",
+    questionText: "Katrineholm (26)",
     answerOptions: [
       { answerText: "Suc", isCorrect: false },
       { answerText: "Åg", isCorrect: false },
@@ -234,7 +234,7 @@ export const stationQuestion = [
     ],
   },
   {
-    questionText: "Södertälje Syd",
+    questionText: "Södertälje Syd (27)",
     answerOptions: [
       { answerText: "Xosl", isCorrect: false },
       { answerText: "Söö", isCorrect: true },
@@ -243,7 +243,7 @@ export const stationQuestion = [
     ],
   },
   {
-    questionText: "Flemingsberg",
+    questionText: "Flemingsberg (28)",
     answerOptions: [
       { answerText: "Fln", isCorrect: false },
       { answerText: "Flb", isCorrect: true },
@@ -252,7 +252,7 @@ export const stationQuestion = [
     ],
   },
   {
-    questionText: "Stockholm",
+    questionText: "Stockholm (29)",
     answerOptions: [
       { answerText: "Cst", isCorrect: true },
       { answerText: "Suc", isCorrect: false },
@@ -261,7 +261,7 @@ export const stationQuestion = [
     ],
   },
   {
-    questionText: "Örebro C",
+    questionText: "Örebro C (30)",
     answerOptions: [
       { answerText: "Ör", isCorrect: true },
       { answerText: "Örc", isCorrect: false },
@@ -270,7 +270,7 @@ export const stationQuestion = [
     ],
   },
   {
-    questionText: "Eskilstuna",
+    questionText: "Eskilstuna (31)",
     answerOptions: [
       { answerText: "Ksc", isCorrect: false },
       { answerText: "Kil", isCorrect: false },
@@ -279,7 +279,7 @@ export const stationQuestion = [
     ],
   },
   {
-    questionText: "Karlstad",
+    questionText: "Karlstad (32)",
     answerOptions: [
       { answerText: "Ksc", isCorrect: true },
       { answerText: "Kil", isCorrect: false },
@@ -288,7 +288,7 @@ export const stationQuestion = [
     ],
   },
   {
-    questionText: "Kil",
+    questionText: "Kil (33)",
     answerOptions: [
       { answerText: "Kili", isCorrect: false },
       { answerText: "Kil", isCorrect: true },
@@ -297,7 +297,7 @@ export const stationQuestion = [
     ],
   },
   {
-    questionText: "Arboga",
+    questionText: "Arboga (34)",
     answerOptions: [
       { answerText: "Arb", isCorrect: true },
       { answerText: "Ar", isCorrect: false },
@@ -306,7 +306,7 @@ export const stationQuestion = [
     ],
   },
   {
-    questionText: "Arvika",
+    questionText: "Arvika (35)",
     answerOptions: [
       { answerText: "Arnc", isCorrect: false },
       { answerText: "Åg", isCorrect: false },
@@ -315,7 +315,7 @@ export const stationQuestion = [
     ],
   },
   {
-    questionText: "Västerås",
+    questionText: "Västerås (36)",
     answerOptions: [
       { answerText: "Vå", isCorrect: true },
       { answerText: "Åre", isCorrect: false },
@@ -324,7 +324,7 @@ export const stationQuestion = [
     ],
   },
   {
-    questionText: "Oslo",
+    questionText: "Oslo (37)",
     answerOptions: [
       { answerText: "Xols", isCorrect: false },
       { answerText: "Xosl", isCorrect: true },
@@ -333,7 +333,7 @@ export const stationQuestion = [
     ],
   },
   {
-    questionText: "Arlanda",
+    questionText: "Arlanda (38)",
     answerOptions: [
       { answerText: "Anrc", isCorrect: false },
       { answerText: "Arcn", isCorrect: false },
@@ -342,7 +342,7 @@ export const stationQuestion = [
     ],
   },
   {
-    questionText: "Uppsala",
+    questionText: "Uppsala (39)",
     answerOptions: [
       { answerText: "U", isCorrect: true },
       { answerText: "Upa", isCorrect: false },
@@ -351,7 +351,7 @@ export const stationQuestion = [
     ],
   },
   {
-    questionText: "Sala",
+    questionText: "Sala (40)",
     answerOptions: [
       { answerText: "Gä", isCorrect: false },
       { answerText: "Sj", isCorrect: false },
@@ -360,7 +360,7 @@ export const stationQuestion = [
     ],
   },
   {
-    questionText: "Gävle",
+    questionText: "Gävle (41)",
     answerOptions: [
       { answerText: "Gäe", isCorrect: false },
       { answerText: "Gä", isCorrect: true },
@@ -369,7 +369,7 @@ export const stationQuestion = [
     ],
   },
   {
-    questionText: "Falun",
+    questionText: "Falun (42)",
     answerOptions: [
       { answerText: "Fln", isCorrect: true },
       { answerText: "Blgc", isCorrect: false },
@@ -378,7 +378,7 @@ export const stationQuestion = [
     ],
   },
   {
-    questionText: "Borlänge",
+    questionText: "Borlänge (43)",
     answerOptions: [
       { answerText: "Mrc", isCorrect: false },
       { answerText: "Blgc", isCorrect: true },
@@ -387,7 +387,7 @@ export const stationQuestion = [
     ],
   },
   {
-    questionText: "Mora",
+    questionText: "Mora (44)",
     answerOptions: [
       { answerText: "Mrc", isCorrect: true },
       { answerText: "Mcr", isCorrect: false },
@@ -396,7 +396,7 @@ export const stationQuestion = [
     ],
   },
   {
-    questionText: "Sundsvall",
+    questionText: "Sundsvall (45)",
     answerOptions: [
       { answerText: "Sdl", isCorrect: false },
       { answerText: "Suc", isCorrect: true },
@@ -405,7 +405,7 @@ export const stationQuestion = [
     ],
   },
   {
-    questionText: "Ånge",
+    questionText: "Ånge (46)",
     answerOptions: [
       { answerText: "Åre", isCorrect: false },
       { answerText: "Å", isCorrect: false },
@@ -414,7 +414,7 @@ export const stationQuestion = [
     ],
   },
   {
-    questionText: "Östersund",
+    questionText: "Östersund (47)",
     answerOptions: [
       { answerText: "Ösd", isCorrect: false },
       { answerText: "Öt", isCorrect: false },
@@ -423,7 +423,7 @@ export const stationQuestion = [
     ],
   },
   {
-    questionText: "Åre",
+    questionText: "Åre (48)",
     answerOptions: [
       { answerText: "Åe", isCorrect: false },
       { answerText: "Åre", isCorrect: true },
@@ -432,7 +432,7 @@ export const stationQuestion = [
     ],
   },
   {
-    questionText: "Duved",
+    questionText: "Duved (49)",
     answerOptions: [
       { answerText: "Du", isCorrect: true },
       { answerText: "Duv", isCorrect: false },
@@ -441,7 +441,7 @@ export const stationQuestion = [
     ],
   },
   {
-    questionText: "Umeå",
+    questionText: "Umeå (50)",
     answerOptions: [
       { answerText: "Umeå", isCorrect: false },
       { answerText: "Uem", isCorrect: false },
