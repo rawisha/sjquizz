@@ -7,17 +7,17 @@ function QuestionView({ pickedQuiz }) {
   const [showScore, setShowScore] = useState(false);
   const [score, setScore] = useState(0);
   const [answerCorrect, setAnswerCorrect] = useState(false);
-  const [questions, setQuestions] = useState(stationQuestion);
+  const [questions, setQuestions] = useState();
   useEffect(() => {
     switch (pickedQuiz) {
-      case "stationQuestions":
-        setQuestions(stationQuestion);
+      case "stationQuestion":
+        setQuestions(stationQuestion.sort(() => Math.random() - 0.5));
         break;
       case "stnQuestion":
-        setQuestions(stnQuestion);
+        setQuestions(stnQuestion.sort(() => Math.random() - 0.5));
         break;
       case "numberQuestion":
-        setQuestions(numberQuestion);
+        setQuestions(numberQuestion.sort(() => Math.random() - 0.5));
         break;
     }
   }, [pickedQuiz]);
@@ -47,7 +47,7 @@ function QuestionView({ pickedQuiz }) {
   useEffect(() => {}, [handleanswerOptionsClick]);
   return (
     <div className="app">
-      {showScore ? (
+      {showScore && questions ? (
         <div className="score-section">
           <div>
             Du fick {score} av {questions?.length} rätt
@@ -69,13 +69,12 @@ function QuestionView({ pickedQuiz }) {
               </button>
             </div>
             <div className="question-text">
-              {questions[currentQuestion].questionText}
+              {questions?.[currentQuestion]?.questionText}
             </div>
           </div>
           <div className="answer-section">
-            {questions
-              .sort(() => (Math.random() > 0.5 ? 1 : -1))
-              [currentQuestion].answerOptions.map((answerOptions) => (
+            {questions?.[currentQuestion]?.answerOptions.map(
+              (answerOptions) => (
                 <button
                   key={answerOptions.id}
                   onClick={() =>
@@ -84,7 +83,8 @@ function QuestionView({ pickedQuiz }) {
                 >
                   {answerOptions.answerText}
                 </button>
-              ))}
+              )
+            )}
           </div>
         </>
       )}
