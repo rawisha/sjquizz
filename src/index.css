@@ -132,6 +132,10 @@ button {
   background-color: black;
 }
 
+.btnNato {
+  background-color: Blue;
+}
+
 .correct {
   background-color: #2f922f;
 }

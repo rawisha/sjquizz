@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { stationQuestion } from "../stationQuestion";
 import { stnQuestion } from "../stnQuestions";
 import { numberQuestion } from "../numberQuestion";
+import { natoQuestion } from "../natoQuestions";
 function QuestionView({ pickedQuiz }) {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [showScore, setShowScore] = useState(false);
@@ -18,6 +19,9 @@ function QuestionView({ pickedQuiz }) {
         break;
       case "numberQuestion":
         setQuestions(numberQuestion.sort(() => Math.random() - 0.5));
+        break;
+      case "natoQuestion":
+        setQuestions(natoQuestion.sort(() => Math.random() - 0.5));
         break;
     }
   }, [pickedQuiz]);

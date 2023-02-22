@@ -26,6 +26,12 @@ function App() {
           >
             Number
           </button>
+          <button
+            className="btnNato"
+            onClick={() => setPickedQuiz("natoQuestion")}
+          >
+            Nato Questions
+          </button>
         </div>
       ) : (
         <QuestionView pickedQuiz={pickedQuiz} />
